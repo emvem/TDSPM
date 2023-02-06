@@ -27,7 +27,8 @@ let package = Package(
         .package(url: "https://github.com/youtube/youtube-ios-player-helper.git", from: "1.0.0"),
         .package(url: "https://github.com/onevcat/Kingfisher", from: "7.0.0"),
         .package(url: "https://github.com/yonat/MultiSlider", from: "1.0.0"),
-        .package(url: "https://github.com/mac-cain13/R.swift.git", from: "7.0.0")
+        .package(url: "https://github.com/mac-cain13/R.swift.git", from: "7.0.0"),
+        .package(url: "https://github.com/hackiftekhar/IQKeyboardManager", exact: "6.5.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -52,7 +53,8 @@ let package = Package(
                            .product(name: "SwiftMessages", package: "SwiftMessages"),
                            .product(name: "YandexMobileMetrica", package: "metrica-sdk-ios"),
                            .product(name: "YandexMapsMobile", package: "YandexMapsMobile"),
-                           .product(name: "YouTubeiOSPlayerHelper", package: "youtube-ios-player-helper")
+                           .product(name: "YouTubeiOSPlayerHelper", package: "youtube-ios-player-helper"),
+                           .product(name: "IQKeyboardManagerSwift", package: "IQKeyboardManager")
                            ]),
         .testTarget(
             name: "TDSPMTests",
