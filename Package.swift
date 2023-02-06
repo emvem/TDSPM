@@ -43,15 +43,15 @@ let package = Package(
                            .product(name: "FirebaseDynamicLinks", package: "firebase-ios-sdk"),
                            .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
 //                           .product(name: "FirebaseCrashlytics", package: "firebase-ios-sdk"),
-//                           .product(name: "GoogleTagManager", package: "google-tag-manager-ios-sdk"),
+                           .product(name: "GoogleTagManager", package: "google-tag-manager-ios-sdk"),
 //                           .product(name: "JWTDecode", package: "JWTDecode.swift"),
-//                           .product(name: "Kingfisher", package: "Kingfisher"),
-//                           .product(name: "MultiSlider", package: "MultiSlider"),
-//                           .product(name: "SocketIO", package: "socket.io-client-swift"),
-//                           .product(name: "SwiftMessages", package: "SwiftMessages"),
+                           .product(name: "Kingfisher", package: "Kingfisher"),
+                           .product(name: "MultiSlider", package: "MultiSlider"),
+                           .product(name: "SocketIO", package: "socket.io-client-swift"),
+                           .product(name: "SwiftMessages", package: "SwiftMessages"),
 //                           .product(name: "YandexMobileMetrica", package: "metrica-sdk-ios"),
 //                           .product(name: "YandexMapsMobile", package: "YandexMapsMobile"),
-//                           .product(name: "YouTubeiOSPlayerHelper", package: "youtube-ios-player-helper")
+                           .product(name: "YouTubeiOSPlayerHelper", package: "youtube-ios-player-helper")
                            ]),
         .testTarget(
             name: "TDSPMTests",
