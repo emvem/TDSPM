@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "TDSPM",
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "TDSPM",
