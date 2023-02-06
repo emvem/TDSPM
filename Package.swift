@@ -50,7 +50,7 @@ let package = Package(
                            .product(name: "SocketIO", package: "socket.io-client-swift"),
                            .product(name: "SwiftMessages", package: "SwiftMessages"),
 //                           .product(name: "YandexMobileMetrica", package: "metrica-sdk-ios"),
-//                           .product(name: "YandexMapsMobile", package: "YandexMapsMobile"),
+                           .product(name: "YandexMapsMobile", package: "YandexMapsMobile"),
                            .product(name: "YouTubeiOSPlayerHelper", package: "youtube-ios-player-helper")
                            ]),
         .testTarget(
