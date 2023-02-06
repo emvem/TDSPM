@@ -24,12 +24,10 @@ let package = Package(
         .package(url: "https://github.com/SwiftKickMobile/SwiftMessages.git", from: "9.0.0"),
         .package(url: "https://github.com/c-villain/YandexMapsMobile", from: "4.1.0"),
         .package(url: "https://github.com/googleanalytics/google-tag-manager-ios-sdk", from: "7.0.0"),
-        .package(url: "https://github.com/DragonCherry/AssetsPickerViewController", branch: "master"),
         .package(url: "https://github.com/socketio/socket.io-client-swift", exact: "16.0.1"),
         .package(url: "https://github.com/youtube/youtube-ios-player-helper.git", from: "1.0.0"),
         .package(url: "https://github.com/onevcat/Kingfisher", from: "7.0.0"),
         .package(url: "https://github.com/yonat/MultiSlider", from: "1.0.0"),
-        .package(url: "https://github.com/ddddxxx/Semver", branch: "master"),
         .package(url: "https://github.com/mac-cain13/R.swift.git", from: "7.0.0")
     ],
     targets: [
@@ -41,7 +39,6 @@ let package = Package(
                            .product(name: "Alamofire", package: "Alamofire"),
                            .product(name: "AlamofireNetworkActivityLogger", package: "AlamofireNetworkActivityLogger"),
                            .product(name: "SwiftyJSON", package: "SwiftyJSON"),
-                           .product(name: "AssetsPickerViewController", package: "AssetsPickerViewController"),
                            .product(name: "FacebookCore", package: "facebook-ios-sdk"),
                            .product(name: "FirebaseAnalytics", package: "firebase-ios-sdk"),
                            .product(name: "FirebaseRemoteConfig", package: "firebase-ios-sdk"),
@@ -53,7 +50,6 @@ let package = Package(
                            .product(name: "JWTDecode", package: "JWTDecode.swift"),
                            .product(name: "Kingfisher", package: "Kingfisher"),
                            .product(name: "MultiSlider", package: "MultiSlider"),
-                           .product(name: "Semver", package: "Semver"),
                            .product(name: "SocketIO", package: "socket.io-client-swift"),
                            .product(name: "SwiftMessages", package: "SwiftMessages"),
                            .product(name: "YandexMobileMetrica", package: "metrica-sdk-ios"),
