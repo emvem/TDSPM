@@ -28,15 +28,6 @@
       }
     },
     {
-      "identity" : "assetspickerviewcontroller",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/DragonCherry/AssetsPickerViewController",
-      "state" : {
-        "branch" : "master",
-        "revision" : "12b6cc1917638cd35e3a5f5492e77b94b00b0eb9"
-      }
-    },
-    {
       "identity" : "availablehapticfeedback",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/yonat/AvailableHapticFeedback",
@@ -59,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/facebook/facebook-ios-sdk",
       "state" : {
-        "branch" : "main",
-        "revision" : "49e49f7336767511782d058ee84aaeb75d2c334c"
+        "revision" : "7fd8a930a5b2c940a22efafe0e214ed0df671312",
+        "version" : "15.1.0"
       }
     },
     {
@@ -136,15 +127,6 @@
       }
     },
     {
-      "identity" : "iqkeyboardmanager",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/hackiftekhar/IQKeyboardManager",
-      "state" : {
-        "branch" : "master",
-        "revision" : "0ea3febb36cfcec2afb5841fd8809a9c0fa545b3"
-      }
-    },
-    {
       "identity" : "jwtdecode.swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/auth0/JWTDecode.swift",
@@ -158,8 +140,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/onevcat/Kingfisher",
       "state" : {
-        "revision" : "90135885ef506506620c4911cefb55a95ca2a9a2",
-        "version" : "7.5.0"
+        "revision" : "2db469112fbcfd83ff0a96c4546772d283f317f5",
+        "version" : "7.6.0"
       }
     },
     {
@@ -169,15 +151,6 @@
       "state" : {
         "revision" : "0706abcc6b0bd9cedfbb015ba840e4a780b5159b",
         "version" : "1.22.2"
-      }
-    },
-    {
-      "identity" : "metrica-sdk-ios",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/yandexmobile/metrica-sdk-ios",
-      "state" : {
-        "branch" : "master",
-        "revision" : "615187c0402709da9e1e3ac5dbbbb70efed3b283"
       }
     },
     {
@@ -214,24 +187,6 @@
       "state" : {
         "revision" : "cffbe4aa55ab5f012590b38ad114079c407e6937",
         "version" : "7.2.4"
-      }
-    },
-    {
-      "identity" : "semver",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ddddxxx/Semver",
-      "state" : {
-        "branch" : "master",
-        "revision" : "267933f2ab121d409b841049cb6232b1aac25ea4"
-      }
-    },
-    {
-      "identity" : "snapkit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SnapKit/SnapKit",
-      "state" : {
-        "revision" : "f222cbdf325885926566172f6f5f06af95473158",
-        "version" : "5.6.0"
       }
     },
     {
