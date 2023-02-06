@@ -17,7 +17,7 @@ let package = Package(
         .package(url: "https://github.com/konkab/AlamofireNetworkActivityLogger.git", from: "3.4.0"),
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON", from: "5.0.0"),
         .package(url: "https://github.com/auth0/JWTDecode.swift", from: "2.0.0"),
-        .package(url: "https://github.com/hackiftekhar/IQKeyboardManager", branch: "master"),
+        .package(url: "https://github.com/hackiftekhar/IQKeyboardManager", exact: "6.2.0"),
         .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "8.0.0"),
         .package(url: "https://github.com/yandexmobile/metrica-sdk-ios", branch: "master"),
         .package(url: "https://github.com/facebook/facebook-ios-sdk", branch: "main"),
