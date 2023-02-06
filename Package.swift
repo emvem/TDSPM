@@ -20,7 +20,7 @@ let package = Package(
         .package(url: "https://github.com/hackiftekhar/IQKeyboardManager", exact: "6.2.0"),
         .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "8.0.0"),
         .package(url: "https://github.com/yandexmobile/metrica-sdk-ios", exact: "3.3.0"),
-        .package(url: "https://github.com/facebook/facebook-ios-sdk", branch: "main"),
+        .package(url: "https://github.com/facebook/facebook-ios-sdk", exact: "15.1.0"),
         .package(url: "https://github.com/SwiftKickMobile/SwiftMessages.git", from: "9.0.0"),
         .package(url: "https://github.com/c-villain/YandexMapsMobile", from: "4.1.0"),
         .package(url: "https://github.com/googleanalytics/google-tag-manager-ios-sdk", from: "7.0.0"),
