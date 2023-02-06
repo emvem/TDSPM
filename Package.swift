@@ -17,7 +17,7 @@ let package = Package(
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON", from: "5.0.0"),
         .package(url: "https://github.com/auth0/JWTDecode.swift", from: "2.0.0"),
         .package(url: "https://github.com/firebase/firebase-ios-sdk", from: "8.0.0"),
-        .package(url: "https://github.com/yandexmobile/metrica-sdk-ios", exact: "3.3.0"),
+        .package(url: "https://github.com/yandexmobile/metrica-sdk-ios", exact: "4.4.0"),
         .package(url: "https://github.com/facebook/facebook-ios-sdk", exact: "15.1.0"),
         .package(url: "https://github.com/SwiftKickMobile/SwiftMessages.git", from: "9.0.0"),
         .package(url: "https://github.com/c-villain/YandexMapsMobile", from: "4.1.0"),
@@ -49,7 +49,7 @@ let package = Package(
                            .product(name: "MultiSlider", package: "MultiSlider"),
                            .product(name: "SocketIO", package: "socket.io-client-swift"),
                            .product(name: "SwiftMessages", package: "SwiftMessages"),
-//                           .product(name: "YandexMobileMetrica", package: "metrica-sdk-ios"),
+                           .product(name: "YandexMobileMetrica", package: "metrica-sdk-ios"),
                            .product(name: "YandexMapsMobile", package: "YandexMapsMobile"),
                            .product(name: "YouTubeiOSPlayerHelper", package: "youtube-ios-player-helper")
                            ]),
